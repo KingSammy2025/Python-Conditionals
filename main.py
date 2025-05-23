@@ -118,3 +118,7 @@ elif float(average) >= 60 and average < 70:
     print("You're passing, but there's room to grow.")
 elif float(average) < 60:
     print("Let's make a plan to improve")
+
+print("Thanks for using the Grade analyzer!")
+
+
