@@ -1,4 +1,5 @@
- print("Welcome to the neighbourhood survey!")
+# Task 1
+print("Welcome to the neighbourhood survey!")
 
 print("Answer the following questions to find out the type of neighbours we have")
 
@@ -91,3 +92,29 @@ else:
     print("You are a nice sweet neighbour!")       
  
 print("Thanks for participating in this quiz!") 
+
+# Task 2
+print("Welcome to the Grade Analyzer!") 
+
+total = 0
+marks = int(input("How many marks would you like to add? "))
+for i in range(marks):
+    next = int(input("Enter a mark: "))
+    total = int(total) + next
+ 
+print("Analyzing your results...")
+
+average = int(total / 3)
+print ("Your average: " + str(average) + "%")
+
+ 
+if float(average) >= 90:
+    print("Excellent work!")
+elif float(average) >= 80 and average < 90:
+    print("Great job!")
+elif float(average) >= 70 and average < 80:
+    print(" You're doing well, keep it up!")
+elif float(average) >= 60 and average < 70:
+    print("You're passing, but there's room to grow.")
+elif float(average) < 60:
+    print("Let's make a plan to improve")
